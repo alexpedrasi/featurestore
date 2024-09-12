@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: qtd_cartoes_3m
+    columns:
+      - name: number_id
+        data_type: string
+        description: "Number identification of a customer"
+        [quote](/reference/resource-properties/quote): true | false
+        [tests](/reference/resource-properties/data-tests): ...
+        [tags](/reference/resource-configs/tags): ...
+        [meta](/reference/resource-configs/meta): ...
+      - name: qtd_cartoes_3m
+        data_type: int64
+        description: "Number of active credit cards the customer currently has"

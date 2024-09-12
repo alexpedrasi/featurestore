@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: diego_database
+    tables:
+    - name: tabela_cartoes
+      columns:
+        - name: number_id
+          data_type: string
+        - name: contract_id
+          data_type: string
